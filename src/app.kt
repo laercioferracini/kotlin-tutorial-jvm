@@ -7,10 +7,11 @@
 
 fun main() {
     println("Tutorial JVM")
-    var sum = sum(1, 6)
+    val c = Calculations()
+    var sum = c.sum(1, 6)
     println(sum)
-    sum = anotherSum(3, 4)
+    sum = c.anotherSum(3, 4)
     println(sum)
-    printSum(5, 2)
+    c.printSum(5, 2)
 
 }
