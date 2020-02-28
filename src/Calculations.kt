@@ -14,4 +14,6 @@ class Calculations {
     fun printSum(a: Int, b: Int) {
         println("Sum of $a and $b is ${a + b}")
     }
+
+    fun minus(a: Int, b: Int) = a - b
 }
